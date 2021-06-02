@@ -27,10 +27,6 @@ class FixedStack:
         """스택이 비어 있는가?"""
         return self.ptr <= 0
 
-    def is_full(self) -> bool:
-        """스택은 가득 찼는가?"""
-        return self.ptr >= self.capacity
-
 # Do it! 실습 4-1 [B]
     def push(self, value: Any) -> None:
         """스택에 value를 푸시"""
